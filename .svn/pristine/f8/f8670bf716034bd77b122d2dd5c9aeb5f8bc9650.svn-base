@@ -1,0 +1,137 @@
+annotation.processing.enabled=true
+annotation.processing.enabled.in.editor=false
+annotation.processing.processors.list=
+annotation.processing.run.all.processors=true
+annotation.processing.source.output=${build.generated.sources.dir}/ap-source-output
+application.title=LunaCorpusTools
+application.vendor=joshgun.sirajzade
+build.classes.dir=${build.dir}/classes
+build.classes.excludes=**/*.java,**/*.form
+# This directory is removed when the project is cleaned:
+build.dir=build
+build.generated.dir=${build.dir}/generated
+build.generated.sources.dir=${build.dir}/generated-sources
+# Only compile against the classpath explicitly listed here:
+build.sysclasspath=ignore
+build.test.classes.dir=${build.dir}/test/classes
+build.test.results.dir=${build.dir}/test/results
+# Uncomment to specify the preferred debugger connection transport:
+#debug.transport=dt_socket
+debug.classpath=\
+    ${run.classpath}
+debug.test.classpath=\
+    ${run.test.classpath}
+# This directory is removed when the project is cleaned:
+dist.dir=dist
+dist.jar=${dist.dir}/LunaCorpusTools.jar
+dist.javadoc.dir=${dist.dir}/javadoc
+endorsed.classpath=
+excludes=
+file.reference.antlr-2.7.7.jar=core\\antlr-2.7.7.jar
+file.reference.cglib-nodep-2.2.jar=core\\cglib-nodep-2.2.jar
+file.reference.clj-ds-0.0.1.jar=core\\clj-ds-0.0.1.jar
+file.reference.commons-codec-1.7.jar=core\\commons-codec-1.7.jar
+file.reference.commons-collections-3.2.1.jar=core\\commons-collections-3.2.1.jar
+file.reference.commons-io-2.4.jar=core\\commons-io-2.4.jar
+file.reference.commons-logging-1.1.1.jar=core\\commons-logging-1.1.1.jar
+file.reference.commons-pool-1.6.jar=core\\commons-pool-1.6.jar
+file.reference.excalibur-cli-1.0.jar=core\\excalibur-cli-1.0.jar
+file.reference.exist.jar=exist.jar
+file.reference.gnu-crypto-2.0.1-min.jar=core\\gnu-crypto-2.0.1-min.jar
+file.reference.jackson-core-2.1.2.jar=core\\jackson-core-2.1.2.jar
+file.reference.jEdit-syntax.jar=core\\jEdit-syntax.jar
+file.reference.jline-0.9.94.jar=core\\jline-0.9.94.jar
+file.reference.jta-1.1.jar=core\\jta-1.1.jar
+file.reference.log4j-1.2.17.jar=core\\log4j-1.2.17.jar
+file.reference.pkg-repo.jar=core\\pkg-repo.jar
+file.reference.quartz-2.1.6.jar=core\\quartz-2.1.6.jar
+file.reference.slf4j-api-1.7.2.jar=core\\slf4j-api-1.7.2.jar
+file.reference.slf4j-log4j12-1.7.2.jar=core\\slf4j-log4j12-1.7.2.jar
+file.reference.sunxacml-1.2.jar=core\\sunxacml-1.2.jar
+file.reference.ws-commons-util-1.0.2.jar=core\\ws-commons-util-1.0.2.jar
+file.reference.xmldb.jar=core\\xmldb.jar
+file.reference.xmlrpc-client-3.1.3.jar=core\\xmlrpc-client-3.1.3.jar
+file.reference.xmlrpc-common-3.1.3.jar=core\\xmlrpc-common-3.1.3.jar
+file.reference.xmlrpc-server-3.1.3.jar=core\\xmlrpc-server-3.1.3.jar
+includes=**
+jar.archive.disabled=${jnlp.enabled}
+jar.compress=false
+jar.index=${jnlp.enabled}
+javac.classpath=\
+    ${libs.JDOM2.classpath}:\
+    ${file.reference.exist.jar}:\
+    ${file.reference.antlr-2.7.7.jar}:\
+    ${file.reference.cglib-nodep-2.2.jar}:\
+    ${file.reference.clj-ds-0.0.1.jar}:\
+    ${file.reference.commons-codec-1.7.jar}:\
+    ${file.reference.commons-collections-3.2.1.jar}:\
+    ${file.reference.commons-io-2.4.jar}:\
+    ${file.reference.commons-logging-1.1.1.jar}:\
+    ${file.reference.commons-pool-1.6.jar}:\
+    ${file.reference.excalibur-cli-1.0.jar}:\
+    ${file.reference.gnu-crypto-2.0.1-min.jar}:\
+    ${file.reference.jEdit-syntax.jar}:\
+    ${file.reference.jackson-core-2.1.2.jar}:\
+    ${file.reference.jline-0.9.94.jar}:\
+    ${file.reference.jta-1.1.jar}:\
+    ${file.reference.log4j-1.2.17.jar}:\
+    ${file.reference.pkg-repo.jar}:\
+    ${file.reference.quartz-2.1.6.jar}:\
+    ${file.reference.slf4j-api-1.7.2.jar}:\
+    ${file.reference.slf4j-log4j12-1.7.2.jar}:\
+    ${file.reference.sunxacml-1.2.jar}:\
+    ${file.reference.ws-commons-util-1.0.2.jar}:\
+    ${file.reference.xmldb.jar}:\
+    ${file.reference.xmlrpc-client-3.1.3.jar}:\
+    ${file.reference.xmlrpc-common-3.1.3.jar}:\
+    ${file.reference.xmlrpc-server-3.1.3.jar}
+# Space-separated list of extra javac options
+javac.compilerargs=
+javac.deprecation=false
+javac.processorpath=\
+    ${javac.classpath}
+javac.source=1.6
+javac.target=1.6
+javac.test.classpath=\
+    ${javac.classpath}:\
+    ${build.classes.dir}
+javac.test.processorpath=\
+    ${javac.test.classpath}
+javadoc.additionalparam=
+javadoc.author=false
+javadoc.encoding=${source.encoding}
+javadoc.noindex=false
+javadoc.nonavbar=false
+javadoc.notree=false
+javadoc.private=false
+javadoc.splitindex=true
+javadoc.use=true
+javadoc.version=false
+javadoc.windowtitle=
+jnlp.codebase.type=no.codebase
+jnlp.descriptor=application
+jnlp.enabled=false
+jnlp.mixed.code=default
+jnlp.offline-allowed=false
+jnlp.signed=false
+jnlp.signing=
+jnlp.signing.alias=
+jnlp.signing.keystore=
+main.class=lunacorpustools.LunaCorpusTools
+manifest.file=manifest.mf
+meta.inf.dir=${src.dir}/META-INF
+mkdist.disabled=false
+platform.active=default_platform
+run.classpath=\
+    ${javac.classpath}:\
+    ${build.classes.dir}
+# Space-separated list of JVM arguments used when running the project.
+# You may also define separate properties like run-sys-prop.name=value instead of -Dname=value.
+# To set system properties for unit tests define test-sys-prop.name=value:
+run.jvmargs=-Dfile.encoding=utf-8
+run.test.classpath=\
+    ${javac.test.classpath}:\
+    ${build.test.classes.dir}
+source.encoding=UTF-8
+src.dir=src
+test.src.dir=test
